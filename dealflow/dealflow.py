@@ -23,8 +23,9 @@ class Lead(EnrichModel):
 
 LEADS: dict[int, Lead] = {}
 SALES_REPS = [
-    {"id": 1, "name": "Alice"},
-    {"id": 2, "name": "Bob"},
+    {"id": 1, "name": "Alice", "specialty": "Startup founders, corporate execs", "comment": "Great with high-value and target buyers"},
+    {"id": 2, "name": "Bob", "specialty": "ML engineers, students, researchers", "comment": "Technical, connects with influencers and evangelists"},
+    {"id": 3, "name": "Carol", "specialty": "Investors, VCs, referrals", "comment": "Understands investor mindset, builds relationships"},
 ]
 route_counter = 0
 
